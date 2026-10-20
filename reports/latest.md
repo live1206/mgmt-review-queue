@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-20T02:45:54+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-20T03:04:13+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (17)
+### 1. net - pullrequest passed + unresolved review threads (18)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -24,6 +24,7 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63810 | Azure.ResourceManager.Storage | 4 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63871 | Azure.ResourceManager.Hci | 35 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63889 | Azure.ResourceManager.DurableTask | 0 resolved, 8 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (4)
