@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-20T03:12:42+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-20T06:19:18+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (18)
+### 1. net - pullrequest passed + unresolved review threads (19)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -18,23 +18,23 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63545 | Azure.ResourceManager.AppService | 1 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63581 | Azure.ResourceManager.IotOperations | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63698 | Azure.ResourceManager.EventGrid | 0 resolved, 5 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63789 | Azure.ResourceManager.PrivateTrafficManager | 8 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63810 | Azure.ResourceManager.Storage | 4 resolved, 3 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63871 | Azure.ResourceManager.Hci | 35 resolved, 5 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63871 | Azure.ResourceManager.Hci | 40 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63889 | Azure.ResourceManager.DurableTask | 0 resolved, 8 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (4)
+### 2. net - pullrequest passed + no unresolved review threads (3)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63169 | Azure.ResourceManager.CognitiveServices | No threads |
-| https://github.com/Azure/azure-sdk-for-net/pull/63684 | Azure.ResourceManager.VerifiedId | No threads |
-| https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | No threads |
-| https://github.com/Azure/azure-sdk-for-net/pull/63960 | Azure.ResourceManager.ContainerService | 1 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63238 | Azure.ResourceManager.Relationships | 11 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64005 | Azure.ResourceManager.Maintenance | No threads |
 
 Both groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
