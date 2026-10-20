@@ -196,7 +196,9 @@ def collect(repo=DEFAULT_REPO, api=graphql):
         if after is None:
             break
     ci_passed.sort(key=lambda pr: (pr["created_at"], pr["number"]))
-    ready = [pr for pr in ci_passed if pr["unresolved_review_threads"] == 0]
+    resolved = [pr for pr in ci_passed if pr["unresolved_review_threads"] == 0]
+    ready = [pr for pr in resolved if pr["review_decision"] != "APPROVED"]
+    merge_ready = [pr for pr in resolved if pr["review_decision"] == "APPROVED"]
     ci_passed = [pr for pr in ci_passed if pr["unresolved_review_threads"] > 0]
     common_criteria = {
         "title_prefix": TITLE_PREFIX, "required_ci_check": REQUIRED_CI_CHECK,
@@ -207,15 +209,23 @@ def collect(repo=DEFAULT_REPO, api=graphql):
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "repository": repo, "search_query": search,
-        "criteria": {**common_criteria, "unresolved_review_threads": 0},
+        "criteria": {
+            **common_criteria, "unresolved_review_threads": 0,
+            "excluded_review_decision": "APPROVED",
+        },
         "ci_passed_criteria": {
             **common_criteria, "minimum_unresolved_review_threads": 1,
             "include_prs_without_threads": False,
+        },
+        "merge_ready_criteria": {
+            **common_criteria, "unresolved_review_threads": 0,
+            "required_review_decision": "APPROVED",
         },
         "search_results_scanned": len(seen_prs),
         "management_candidates_scanned": management_count,
         "ci_passed_count": len(ci_passed), "ci_passed_prs": ci_passed,
         "ready_count": len(ready), "ready_prs": ready,
+        "merge_ready_count": len(merge_ready), "merge_ready_prs": merge_ready,
     }
 
 
@@ -230,6 +240,8 @@ def markdown(report):
          f"No matching PRs currently have passing {REQUIRED_CI_CHECK} CI and unresolved review threads."),
         (f"### 2. {REQUIRED_CI_CHECK} passed + no unresolved review threads ({report['ready_count']})", report["ready_prs"],
          "No matching PRs are currently ready for final review."),
+        (f"### 3. Ready to merge: approved + no unresolved review threads ({report['merge_ready_count']})", report["merge_ready_prs"],
+         "No matching PRs are currently ready to merge."),
     )
     for heading, prs, empty_message in groups:
         lines += ["", heading, ""]
@@ -244,14 +256,16 @@ def markdown(report):
             threads = f"{count - unresolved} resolved, {unresolved} unresolved" if count else "No threads"
             lines.append(f"| {pr['url']} | {package} | {threads} |")
     lines += [
-        "", "Both groups: open, non-draft management AutoPR; "
+        "", "All groups: open, non-draft management AutoPR; "
         f"the current head's exact `{REQUIRED_CI_CHECK}` check must complete successfully.",
-        "", "Group 1 requires at least one unresolved review thread. "
-        "Group 2 requires no unresolved review threads (including outdated threads); "
-        "PRs with no threads qualify for group 2 only.",
-        "", "Other CI checks are optional and do not affect either group. "
+        "", "Group 1 requires at least one unresolved review thread, even if approved. "
+        "Group 2 requires no unresolved review threads and a review decision other than APPROVED. "
+        "Group 3 requires APPROVED and no unresolved review threads. "
+        "Outdated unresolved threads still count; PRs with no threads qualify for group 2 or 3, depending on approval.",
+        "", "Other CI checks are optional and do not affect any group. "
         "A missing, pending, failed, skipped, or neutral required check does not qualify. "
         "This is a review queue, not merge approval. "
+        "Ready to merge means review is complete under these criteria; branch rules, conflicts, and other merge restrictions are not evaluated. "
         "GitHub search may lag, and PRs can change after this snapshot.",
     ]
     return "\n".join(lines) + "\n"

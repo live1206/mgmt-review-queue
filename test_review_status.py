@@ -1,4 +1,4 @@
-"""CI/thread groups must not depend on GitHub's aggregate review decision."""
+"""Review decisions split resolved PRs, but never hide unresolved follow-up."""
 
 import unittest
 
@@ -22,7 +22,7 @@ class ReviewStatusTests(unittest.TestCase):
         self.assertEqual(report["ci_passed_prs"][0]["unresolved_review_threads"], 1)
         self.assertEqual(report["ready_count"], 0)
 
-    def test_review_status_does_not_gate_either_group(self):
+    def test_review_status_only_splits_prs_without_unresolved_threads(self):
         for decision in (None, "REVIEW_REQUIRED", "APPROVED", "CHANGES_REQUESTED"):
             for unresolved in (False, True):
                 with self.subTest(decision=decision, unresolved=unresolved):
@@ -31,12 +31,13 @@ class ReviewStatusTests(unittest.TestCase):
                         reviewThreads=connection([{"isResolved": not unresolved}]),
                     )])
                     self.assertEqual(report["ci_passed_count"], int(unresolved))
-                    self.assertEqual(report["ready_count"], int(not unresolved))
-                    eligible = report["ci_passed_prs"] + report["ready_prs"]
+                    self.assertEqual(report["ready_count"], int(not unresolved and decision != "APPROVED"))
+                    self.assertEqual(report["merge_ready_count"], int(not unresolved and decision == "APPROVED"))
+                    eligible = report["ci_passed_prs"] + report["ready_prs"] + report["merge_ready_prs"]
                     self.assertEqual(len(eligible), 1)
                     self.assertEqual(eligible[0]["review_decision"], decision)
 
-    def test_search_criteria_and_markdown_do_not_require_review_status(self):
+    def test_search_does_not_filter_review_status_and_group1_accepts_any_decision(self):
         queries = []
         def api(query, variables):
             queries.append(variables["query"])
@@ -44,8 +45,10 @@ class ReviewStatusTests(unittest.TestCase):
         report = queue.collect(api=api)
         self.assertNotIn("status:", queries[0])
         self.assertNotIn("review:", queries[0])
-        for field in ("criteria", "ci_passed_criteria"):
-            self.assertNotIn("review_decision", report[field])
+        self.assertNotIn("required_review_decision", report["ci_passed_criteria"])
+        self.assertNotIn("excluded_review_decision", report["ci_passed_criteria"])
+        self.assertEqual(report["criteria"]["excluded_review_decision"], "APPROVED")
+        self.assertEqual(report["merge_ready_criteria"]["required_review_decision"], "APPROVED")
         self.assertNotIn("review required", queue.markdown(report))
 
 

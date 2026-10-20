@@ -41,7 +41,7 @@ must allow its report commit. Manual runs must select the default branch.
 
 ## Selection
 
-Both groups require:
+All three groups require:
 
 - An open, non-draft PR whose title starts with `[AutoPR Azure.ResourceManager`.
 - The latest commit matches the current head SHA.
@@ -52,18 +52,22 @@ Both groups require:
 
 Missing, pending, failed, cancelled, skipped, or neutral required checks do not
 qualify. **All other CI checks are optional**, including the automated management
-SDK review. Aggregate CI status, review decisions, and CLEAN review signals do
-not gate either group.
+SDK review. Aggregate CI status and CLEAN review signals do not gate any group.
+GitHub's aggregate review decision separates PRs needing final review from those
+whose review is complete.
 
 The groups are **exclusive**, each sorted oldest first:
 
 1. **CI passed + unresolved review threads:** at least one unresolved inline
-   review thread, including outdated threads.
+   review thread, including outdated threads, regardless of approval.
 2. **CI passed + no unresolved review threads:** every inline thread is resolved,
-   or there are no threads at all.
+   or there are no threads at all, and the review decision is not `APPROVED`.
+   Null, `REVIEW_REQUIRED`, and `CHANGES_REQUESTED` decisions remain here.
+3. **Ready to merge:** the review decision is `APPROVED` and there are no
+   unresolved inline review threads. Approved PRs with no threads qualify too.
 
 Each qualifying PR appears exactly once. Issue-level/general PR comments have no
-resolved flag and do not count as inline review threads. Both sections show
+resolved flag and do not count as inline review threads. All sections show
 actual resolved/unresolved thread counts.
 
 Search, current-head CI contexts, and review threads are fully paginated. Search
@@ -73,7 +77,9 @@ publish partial results. The APIs are not an atomic snapshot: PRs can change
 during or after collection, and GitHub search can lag.
 
 The script does not inspect CI logs, validate the fixes behind resolved threads,
-regenerate SDKs, approve PRs, or determine mergeability.
+regenerate SDKs, approve PRs, or determine mergeability. **Ready to merge** means
+review is complete under the criteria above, not guaranteed mergeability: branch
+rules, conflicts, and other merge restrictions are not evaluated.
 
 ## Run locally
 
@@ -106,13 +112,16 @@ JSON includes a UTC timestamp, criteria, head SHAs, PR URLs, and thread counts:
 - `ci_passed_prs` / `ci_passed_count` / `ci_passed_criteria`: **group 1 only**, with
   at least one unresolved thread.
 - `ready_prs` / `ready_count` / `criteria`: **group 2 only**, with zero unresolved
-  threads.
-- Add both counts for all qualifying PRs. The lists never overlap.
+  threads and a review decision other than `APPROVED`.
+- `merge_ready_prs` / `merge_ready_count` / `merge_ready_criteria`: **group 3 only**,
+  with zero unresolved threads and an `APPROVED` review decision.
+- Add all three counts for all qualifying PRs. The lists never overlap.
 - `ci_state` describes the required check, not the aggregate CI rollup;
   `required_ci_check` identifies `net - pullrequest`.
 
-JSON schema version remains 1. Consumers of the former overlapping-group format
-must account for the now-exclusive membership.
+JSON schema version remains 1. The `merge_ready_*` fields are additive, but
+approved PRs without unresolved threads now move from `ready_prs` to
+`merge_ready_prs`. Consumers must account for all three exclusive groups.
 
 ## Tests
 
@@ -123,8 +132,10 @@ python3 -m unittest -v
 Tests use mocked API responses and temporary local Git repositories; no tokens or
 network access are needed. Coverage includes exact required-CI matching, legacy
 status contexts, optional failures, pagination, stale heads, outdated threads,
-exclusive membership, sorting/deduplication, API/authentication failures, atomic
-replacement, hosted refresh retries, and publishing only the report file.
+three-way exclusive membership, approval/thread combinations, sorting/deduplication,
+API/authentication failures, atomic replacement, hosted refresh retries, and
+publishing only the report file.
 
 Regressions retain #63238's failed optional SDK-review check, #63545's null review
-decision with an unresolved thread, and #63702's no-thread/group-2-only case.
+decision with an unresolved thread, #63702's no-thread/group-2-only case, and
+#63960's approved/resolved-thread/group-3-only case.
