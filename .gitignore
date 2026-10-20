@@ -1,0 +1,21 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pi/
+
+# Never publish credentials or local environment files
+.env
+.env.*
+*.pem
+*.key
+
+# Publish only the latest complete report, not local logs/history
+reports/*
+!reports/latest.md
+
+# Existing machine-specific Windows/WSL setup stays local
+LOCAL-SETUP.md
+run_daily.sh
+scheduled-task.xml
+setup_daily_task.ps1
