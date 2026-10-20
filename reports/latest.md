@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-20T06:46:16+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-20T07:25:41+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -28,9 +28,11 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63889 | Azure.ResourceManager.DurableTask | 0 resolved, 8 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (0)
+### 2. net - pullrequest passed + no unresolved review threads (1)
 
-No matching PRs are currently ready for final review.
+| PR | Package | Review threads |
+| --- | --- | --- |
+| https://github.com/Azure/azure-sdk-for-net/pull/63169 | Azure.ResourceManager.CognitiveServices | No threads |
 
 ### 3. Ready to merge: approved + no unresolved review threads (2)
 
