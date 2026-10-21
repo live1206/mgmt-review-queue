@@ -2,8 +2,8 @@ name: Refresh review queue
 
 on:
   schedule:
-    # 08:07 Beijing time (UTC+08:00); avoid the busiest start-of-hour period.
-    - cron: '7 0 * * *'
+    # 10:59 Beijing time (UTC+08:00); avoid the busiest start-of-hour period.
+    - cron: '59 2 * * *'
   workflow_dispatch:
 
 permissions:
