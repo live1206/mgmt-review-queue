@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-20T09:32:06+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-21T03:06:01+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -24,20 +24,22 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63789 | Azure.ResourceManager.PrivateTrafficManager | 8 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63810 | Azure.ResourceManager.Storage | 4 resolved, 3 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63871 | Azure.ResourceManager.Hci | 40 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63889 | Azure.ResourceManager.DurableTask | 0 resolved, 8 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (0)
+### 2. net - pullrequest passed + no unresolved review threads (1)
 
-No matching PRs are currently ready for final review.
+| PR | Package | Review threads |
+| --- | --- | --- |
+| https://github.com/Azure/azure-sdk-for-net/pull/64043 | Azure.ResourceManager.KeyVault | No threads |
 
 ### 3. Ready to merge: approved + no unresolved review threads (1)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
-| https://github.com/Azure/azure-sdk-for-net/pull/64005 | Azure.ResourceManager.Maintenance | No threads |
+| https://github.com/Azure/azure-sdk-for-net/pull/63732 | Azure.ResourceManager.EdgeActions | 1 resolved, 0 unresolved |
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
