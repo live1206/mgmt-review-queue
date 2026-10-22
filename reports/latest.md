@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-21T08:08:38+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-22T00:47:54+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (19)
+### 1. net - pullrequest passed + unresolved review threads (21)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -25,8 +25,10 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63810 | Azure.ResourceManager.Storage | 4 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63871 | Azure.ResourceManager.Hci | 40 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 0 resolved, 2 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (2)
 
