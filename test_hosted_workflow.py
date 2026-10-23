@@ -30,6 +30,13 @@ def git(directory, *args):
 
 
 class HostedWorkflowTests(unittest.TestCase):
+    def test_daily_schedule_is_0808_beijing_time(self):
+        workflow = WORKFLOW.read_text(encoding="utf-8")
+        self.assertEqual(
+            [line.strip() for line in workflow.splitlines() if "- cron:" in line],
+            ["- cron: '8 0 * * *'"],
+        )
+
     def refresh(self, failures):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

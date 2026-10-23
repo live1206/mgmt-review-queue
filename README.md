@@ -18,7 +18,7 @@ not merge approval, and does not require an LLM, webhook, or paid service.
 The [refresh workflow](.github/workflows/refresh.yml) runs on standard
 `ubuntu-latest` GitHub-hosted runners, which are free for public repositories:
 
-- Scheduled daily at **10:59 Beijing time / UTC+08:00** (`59 2 * * *` in UTC).
+- Scheduled daily at **08:08 Beijing time / UTC+08:00** (`8 0 * * *` in UTC).
   Scheduled runs can be delayed by GitHub; this is not an exact-time guarantee.
 - Can also be started from **Actions → Refresh review queue → Run workflow**.
 - Runs the tests, collects the complete report, then commits only
