@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-23T00:31:56+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-23T08:07:01+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -22,20 +22,19 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63789 | Azure.ResourceManager.PrivateTrafficManager | 8 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63810 | Azure.ResourceManager.Storage | 4 resolved, 3 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64043 | Azure.ResourceManager.KeyVault | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 0 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64045 | Azure.ResourceManager.NetApp | 0 resolved, 9 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64127 | Azure.ResourceManager.CloudHealth | 0 resolved, 4 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (3)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63716 | Azure.ResourceManager.CognitiveServices | 14 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 1 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64127 | Azure.ResourceManager.CloudHealth | No threads |
+| https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 2 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (0)
 
