@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-23T08:48:07+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-24T01:14:55+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -18,11 +18,11 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63256 | Azure.ResourceManager.Compute.BulkActions | 0 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63545 | Azure.ResourceManager.AppService | 1 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63581 | Azure.ResourceManager.IotOperations | 0 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63662 | Azure.ResourceManager.DeviceProvisioningServices | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63698 | Azure.ResourceManager.EventGrid | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63789 | Azure.ResourceManager.PrivateTrafficManager | 8 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
@@ -33,7 +33,7 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 
 | PR | Package | Review threads |
 | --- | --- | --- |
-| https://github.com/Azure/azure-sdk-for-net/pull/63716 | Azure.ResourceManager.CognitiveServices | 14 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 2 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (0)
