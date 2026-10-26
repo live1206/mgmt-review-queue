@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-25T04:29:18+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-26T04:32:42+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (20)
+### 1. net - pullrequest passed + unresolved review threads (19)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -18,7 +18,6 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63256 | Azure.ResourceManager.Compute.BulkActions | 0 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63545 | Azure.ResourceManager.AppService | 1 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63581 | Azure.ResourceManager.IotOperations | 0 resolved, 2 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63662 | Azure.ResourceManager.DeviceProvisioningServices | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63698 | Azure.ResourceManager.EventGrid | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
@@ -26,8 +25,8 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64045 | Azure.ResourceManager.NetApp | 0 resolved, 9 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64127 | Azure.ResourceManager.CloudHealth | 0 resolved, 4 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64045 | Azure.ResourceManager.NetApp | 8 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64147 | Azure.ResourceManager.Cdn | 0 resolved, 3 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (2)
 
@@ -36,9 +35,11 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 2 resolved, 0 unresolved |
 
-### 3. Ready to merge: approved + no unresolved review threads (0)
+### 3. Ready to merge: approved + no unresolved review threads (1)
 
-No matching PRs are currently ready to merge.
+| PR | Package | Review threads |
+| --- | --- | --- |
+| https://github.com/Azure/azure-sdk-for-net/pull/63662 | Azure.ResourceManager.DeviceProvisioningServices | 3 resolved, 0 unresolved |
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
