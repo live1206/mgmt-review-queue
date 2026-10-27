@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-26T04:32:42+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-27T03:38:12+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (19)
+### 1. net - pullrequest passed + unresolved review threads (20)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -26,20 +26,21 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64045 | Azure.ResourceManager.NetApp | 8 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64147 | Azure.ResourceManager.Cdn | 0 resolved, 3 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (2)
+### 2. net - pullrequest passed + no unresolved review threads (1)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
-| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64080 | Azure.ResourceManager.RedHatOpenShiftHcp | 2 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64129 | Azure.ResourceManager.ContainerService | 5 resolved, 0 unresolved |
 
-### 3. Ready to merge: approved + no unresolved review threads (1)
+### 3. Ready to merge: approved + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63662 | Azure.ResourceManager.DeviceProvisioningServices | 3 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
