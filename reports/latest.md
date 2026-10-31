@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-30T05:34:36+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-10-31T05:23:14+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -19,21 +19,20 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63545 | Azure.ResourceManager.AppService | 1 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63581 | Azure.ResourceManager.IotOperations | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63698 | Azure.ResourceManager.EventGrid | 0 resolved, 5 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63700 | Azure.ResourceManager.Network | 17 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/63809 | Azure.ResourceManager.FileShares | 0 resolved, 6 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64312 | Azure.ResourceManager.AIInfraOptimization | 0 resolved, 16 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (2)
+### 2. net - pullrequest passed + no unresolved review threads (1)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63427 | Azure.ResourceManager.DataProtectionBackup | 5 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63789 | Azure.ResourceManager.PrivateTrafficManager | 11 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (1)
 
