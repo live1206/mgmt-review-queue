@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-10-31T05:23:14+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-01T05:50:20+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -28,11 +28,12 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64312 | Azure.ResourceManager.AIInfraOptimization | 0 resolved, 16 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (1)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63427 | Azure.ResourceManager.DataProtectionBackup | 5 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64284 | Azure.ResourceManager.NetApp | 4 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (1)
 
