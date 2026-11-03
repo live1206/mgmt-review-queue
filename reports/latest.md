@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-03T05:40:06+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-03T06:32:20+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -36,11 +36,9 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64371 | Azure.ResourceManager.RecoveryServices | 1 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64372 | Azure.ResourceManager.RecoveryServicesSiteRecovery | 3 resolved, 0 unresolved |
 
-### 3. Ready to merge: approved + no unresolved review threads (1)
+### 3. Ready to merge: approved + no unresolved review threads (0)
 
-| PR | Package | Review threads |
-| --- | --- | --- |
-| https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
+No matching PRs are currently ready to merge.
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
