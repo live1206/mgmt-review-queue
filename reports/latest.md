@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-04T06:02:04+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-05T02:33:48+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -9,7 +9,6 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/62376 | Azure.ResourceManager.Playwright | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/62624 | Azure.ResourceManager.ManagedOps | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62728 | Azure.ResourceManager.EdgeOperator | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62753 | Azure.ResourceManager.ContainerInstance | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62758 | Azure.ResourceManager.Elastic | 0 resolved, 1 unresolved |
@@ -30,20 +29,21 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64192 | Azure.ResourceManager.Monitor | 2 resolved, 21 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64205 | Azure.ResourceManager.Sovereign | 23 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64532 | Azure.ResourceManager.NetworkSecurity | 7 resolved, 2 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (3)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64371 | Azure.ResourceManager.RecoveryServices | 2 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64372 | Azure.ResourceManager.RecoveryServicesSiteRecovery | 3 resolved, 0 unresolved |
 
-### 3. Ready to merge: approved + no unresolved review threads (1)
+### 3. Ready to merge: approved + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63809 | Azure.ResourceManager.FileShares | 10 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64371 | Azure.ResourceManager.RecoveryServices | 2 resolved, 0 unresolved |
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
 
