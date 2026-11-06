@@ -1,15 +1,14 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-05T06:29:55+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-06T00:43:53+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (22)
+### 1. net - pullrequest passed + unresolved review threads (21)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/62376 | Azure.ResourceManager.Playwright | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/62728 | Azure.ResourceManager.EdgeOperator | 2 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62753 | Azure.ResourceManager.ContainerInstance | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62758 | Azure.ResourceManager.Elastic | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62960 | Azure.ResourceManager.FrontDoor | 0 resolved, 2 unresolved |
@@ -21,23 +20,22 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63698 | Azure.ResourceManager.EventGrid | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63714 | Azure.ResourceManager.Monitor.Workspaces | 15 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/63901 | Azure.ResourceManager.HorizonDB | 0 resolved, 16 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63968 | Azure.ResourceManager.KoreAIArtemis | 6 resolved, 16 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64192 | Azure.ResourceManager.Monitor | 2 resolved, 21 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64192 | Azure.ResourceManager.Monitor | 3 resolved, 20 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64205 | Azure.ResourceManager.Sovereign | 23 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 1 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64592 | Azure.ResourceManager.CommvaultContentStore | 0 resolved, 4 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (3)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64372 | Azure.ResourceManager.RecoveryServicesSiteRecovery | 3 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64532 | Azure.ResourceManager.NetworkSecurity | 9 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (2)
 
