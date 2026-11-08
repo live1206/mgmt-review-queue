@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-07T05:48:00+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-08T05:50:40+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
@@ -24,11 +24,12 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 1 resolved, 2 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (1)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64595 | Azure.ResourceManager.Compute.Recommender | 5 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (3)
 
