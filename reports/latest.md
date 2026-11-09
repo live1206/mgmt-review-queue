@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-09T01:59:51+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-09T06:02:56+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (15)
+### 1. net - pullrequest passed + unresolved review threads (16)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -23,13 +23,14 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 1 resolved, 2 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64595 | Azure.ResourceManager.Compute.Recommender | 5 resolved, 4 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
+| https://github.com/Azure/azure-sdk-for-net/pull/62296 | Azure.ResourceManager.Quota | 7 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63806 | Azure.ResourceManager.Search | 3 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64595 | Azure.ResourceManager.Compute.Recommender | 5 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (3)
 
