@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-10T03:23:28+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-10T07:04:46+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (16)
+### 1. net - pullrequest passed + unresolved review threads (17)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -19,10 +19,11 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63968 | Azure.ResourceManager.KoreAIArtemis | 6 resolved, 16 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64192 | Azure.ResourceManager.Monitor | 17 resolved, 6 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64205 | Azure.ResourceManager.Sovereign | 23 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64595 | Azure.ResourceManager.Compute.Recommender | 5 resolved, 4 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 3 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64707 | Azure.ResourceManager.ContainerRegistry | 0 resolved, 5 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (3)
@@ -31,7 +32,7 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/62296 | Azure.ResourceManager.Quota | 11 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/62728 | Azure.ResourceManager.EdgeOperator | 5 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 3 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64733 | Azure.ResourceManager.AIInfraOptimization | No threads |
 
 ### 3. Ready to merge: approved + no unresolved review threads (4)
 
