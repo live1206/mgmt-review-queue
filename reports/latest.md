@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-18T07:10:47+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-19T07:11:18+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (15)
+### 1. net - pullrequest passed + unresolved review threads (14)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -17,20 +17,22 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 13 resolved, 1 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64707 | Azure.ResourceManager.ContainerRegistry | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64817 | Azure.ResourceManager.PrivateDns | 0 resolved, 3 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64979 | Azure.ResourceManager.ContainerServiceFleet | 2 resolved, 3 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64991 | Azure.ResourceManager.NetApp | 2 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65021 | Azure.ResourceManager.ContainerService | 2 resolved, 6 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65028 | Azure.ResourceManager.NetworkSecurity | 0 resolved, 13 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65036 | Azure.ResourceManager.Network | 1 resolved, 2 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (3)
+### 2. net - pullrequest passed + no unresolved review threads (6)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/62296 | Azure.ResourceManager.Quota | 11 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 5 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64216 | Azure.ResourceManager.HybridCompute | 3 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64707 | Azure.ResourceManager.ContainerRegistry | 5 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64979 | Azure.ResourceManager.ContainerServiceFleet | 5 resolved, 0 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65045 | Azure.ResourceManager.CognitiveServices | 1 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (2)
 
