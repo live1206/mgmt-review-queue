@@ -1,6 +1,6 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-20T06:59:59+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-21T06:55:09+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
