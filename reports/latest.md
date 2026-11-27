@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-26T08:02:17+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-27T01:26:17+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (14)
+### 1. net - pullrequest passed + unresolved review threads (16)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -21,7 +21,9 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/64817 | Azure.ResourceManager.PrivateDns | 0 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65075 | Azure.ResourceManager.Confluent | 0 resolved, 4 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65125 | Azure.ResourceManager.ServiceFabricManagedClusters | 0 resolved, 4 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/65131 | Azure.ResourceManager.CognitiveServices | 6 resolved, 12 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65154 | Azure.ResourceManager.DigitalAssets | 2 resolved, 6 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65175 | Azure.ResourceManager.Saas | 14 resolved, 4 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65176 | Azure.ResourceManager.ProfessionalService | 11 resolved, 4 unresolved |
 
 ### 2. net - pullrequest passed + no unresolved review threads (3)
 
