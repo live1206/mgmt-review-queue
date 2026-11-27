@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-27T01:26:39+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-27T08:07:54+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (16)
+### 1. net - pullrequest passed + unresolved review threads (17)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -15,31 +15,29 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/63705 | Azure.ResourceManager.MachineLearning | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63843 | Azure.ResourceManager.CarbonOptimization | 0 resolved, 10 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63886 | Azure.ResourceManager.Hci.Vm | 0 resolved, 15 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/64216 | Azure.ResourceManager.HybridCompute | 3 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64274 | Azure.ResourceManager.ResourceHealth | 0 resolved, 2 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64442 | Azure.ResourceManager.DesktopVirtualization | 0 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64589 | Azure.ResourceManager.PostgreSql | 0 resolved, 5 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/64817 | Azure.ResourceManager.PrivateDns | 0 resolved, 3 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65075 | Azure.ResourceManager.Confluent | 0 resolved, 4 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65083 | Azure.ResourceManager.Batch | 8 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65125 | Azure.ResourceManager.ServiceFabricManagedClusters | 0 resolved, 4 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65154 | Azure.ResourceManager.DigitalAssets | 2 resolved, 6 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/65175 | Azure.ResourceManager.Saas | 14 resolved, 4 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/65176 | Azure.ResourceManager.ProfessionalService | 11 resolved, 4 unresolved |
+| https://github.com/Azure/azure-sdk-for-net/pull/65176 | Azure.ResourceManager.ProfessionalService | 15 resolved, 1 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (3)
+### 2. net - pullrequest passed + no unresolved review threads (1)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 5 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64216 | Azure.ResourceManager.HybridCompute | 3 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/65083 | Azure.ResourceManager.Batch | 8 resolved, 0 unresolved |
 
-### 3. Ready to merge: approved + no unresolved review threads (4)
+### 3. Ready to merge: approved + no unresolved review threads (3)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
 | https://github.com/Azure/azure-sdk-for-net/pull/62376 | Azure.ResourceManager.Playwright | 1 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63809 | Azure.ResourceManager.FileShares | 10 resolved, 0 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/64533 | Azure.ResourceManager.Chaos | 14 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65028 | Azure.ResourceManager.NetworkSecurity | 14 resolved, 0 unresolved |
 
 All groups: open, non-draft management AutoPR; the current head's exact `net - pullrequest` check must complete successfully.
