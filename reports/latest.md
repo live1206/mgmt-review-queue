@@ -1,10 +1,10 @@
 ## Management AutoPR review queues
 
-Checked: 2026-11-27T08:07:54+00:00 · Azure/azure-sdk-for-net
+Checked: 2026-11-28T07:33:32+00:00 · Azure/azure-sdk-for-net
 
 Groups are exclusive; each qualifying PR appears in exactly one section.
 
-### 1. net - pullrequest passed + unresolved review threads (17)
+### 1. net - pullrequest passed + unresolved review threads (16)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
@@ -24,12 +24,12 @@ Groups are exclusive; each qualifying PR appears in exactly one section.
 | https://github.com/Azure/azure-sdk-for-net/pull/65083 | Azure.ResourceManager.Batch | 8 resolved, 1 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65125 | Azure.ResourceManager.ServiceFabricManagedClusters | 0 resolved, 4 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/65154 | Azure.ResourceManager.DigitalAssets | 2 resolved, 6 unresolved |
-| https://github.com/Azure/azure-sdk-for-net/pull/65176 | Azure.ResourceManager.ProfessionalService | 15 resolved, 1 unresolved |
 
-### 2. net - pullrequest passed + no unresolved review threads (1)
+### 2. net - pullrequest passed + no unresolved review threads (2)
 
 | PR | Package | Review threads |
 | --- | --- | --- |
+| https://github.com/Azure/azure-sdk-for-net/pull/62296 | Azure.ResourceManager.Quota | 11 resolved, 0 unresolved |
 | https://github.com/Azure/azure-sdk-for-net/pull/63702 | Azure.ResourceManager.NetworkCloud | 5 resolved, 0 unresolved |
 
 ### 3. Ready to merge: approved + no unresolved review threads (3)
